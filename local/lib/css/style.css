@@ -1,0 +1,7 @@
+table#voximplant_statistic_detail_table tr.main-grid-row.main-grid-row-body.active_missed td {
+    background-color: #f72828;
+}
+
+table#voximplant_statistic_detail_table tr.main-grid-row.main-grid-row-body.active_missed td span {
+    color: #000000;
+}
