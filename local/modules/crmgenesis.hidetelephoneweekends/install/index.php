@@ -24,7 +24,7 @@ class crmgenesis_hidetelephoneweekends extends CModule{
 
         $this->MODULE_NAME = 'Модуль скрытия части настроек телефонии';
         $this->MODULE_DESCRIPTION = "После установки создастся группа \"Настройка выходных дней телефонии\", участники которой смогут выбирать
-         выходные дни в настройке телефонии на странице /telephony/edit.php. Остальные этот блок видеть не будут.";
+         изменять настройки телефонии на странице /telephony/edit.php. Остальные смогут изменить только несколько полей.";
     }
 
     public function InstallFiles(){
